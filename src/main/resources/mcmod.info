@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterswiming",
+  "name": "BetterSwiming",
+  "description": "this mod is make swiming better(like 1.13)!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["bagu_chan"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
