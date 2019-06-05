@@ -74,6 +74,12 @@ public class ModelSwimingPlayer extends ModelPlayer {
             modelrenderer.rotateAngleX = (float)((double)modelrenderer.rotateAngleX - ((double)f2 * 1.2D + (double)f3));
             modelrenderer.rotateAngleY += this.bipedBody.rotateAngleY * 2.0F;
             modelrenderer.rotateAngleZ += MathHelper.sin(this.swingProgress * (float)Math.PI) * -0.4F;
+
+            copyModelAngles(this.bipedLeftLeg, this.bipedLeftLegwear);
+            copyModelAngles(this.bipedRightLeg, this.bipedRightLegwear);
+            copyModelAngles(this.bipedLeftArm, this.bipedLeftArmwear);
+            copyModelAngles(this.bipedRightArm, this.bipedRightArmwear);
+            copyModelAngles(this.bipedBody, this.bipedBodyWear);
         }
 
     }
