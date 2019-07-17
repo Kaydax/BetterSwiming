@@ -8,7 +8,7 @@ addons:
     packages:
       - oracle-java8-installer
 
-install: "./gradlew setupCIWorkspace"
+install: "bash gradlew setupCIWorkspace"
 script:
-  - "./gradlew build"
-  - "./gradlew test"
+  - "bash gradlew build"
+  - "bash gradlew test"
