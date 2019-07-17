@@ -9,7 +9,7 @@ addons:
       - oracle-java8-installer
 
 jobs:
-  include
+  include:
     - stage: build
       install: ./gradlew setupCiWorkspace
       script: ./gradlew test
