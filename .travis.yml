@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - openjdk8
+  
+sudo: required
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+
+jobs:
+  include
+    - stage: build
+      install: ./gradlew setupCiWorkspace
+      script: ./gradlew test
